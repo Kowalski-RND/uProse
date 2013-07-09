@@ -8,8 +8,20 @@
                 "guid": "4fea4knw1l1"
             },
             "entry": {
-                "title": "Hello world! I am μ!",
-                "body": "μ! is super fast and lightweight!"
+                "title": "Here is another post.",
+                "body": "I wish I wish I was a fish."
+            }
+        },
+        {
+            "meta": {
+                "author": "Brandon Kowalski",
+                "postedOn": "2013-07-12",
+                "category": 1,
+                "guid": "knw1l1dsda24s"
+            },
+            "entry": {
+                "title": "Hello world! I am μProse",
+                "body": "μProse is super fast and lightweight!"
             }
         }
     ]

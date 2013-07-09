@@ -6,7 +6,7 @@
         "social": "<a href=\"http://twitter.com/BrandonKowalski\">Twitter</a>",
         "intro": "Hi my name is μProse. Lets blog!",
         "bio": "I was created by <a href=\"http://github.com/BrandonKowalski\">Brandon Kowalski</a>. He is pretty swell!",
-        "copy": "<small>&copy; 2013 Brandon Kowalski<br> Licensed under the MIT license.</small>",
+        "copy": "<small>μProse is licensed under the MIT license.</small>",
         "entries": "entries.json",
         "categories": "categories.json"
     }
