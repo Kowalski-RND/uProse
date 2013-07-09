@@ -36,3 +36,13 @@ Once updated, the loader will find the new post and display it on the page.
 
 ###License
 μProse is licensed under the MIT license. Go ahead and break / improve it!
+
+###Shout-outs
+μProse is built on really awesome libraries made by awesome people.
+
+- [jQuery](http://jquery.com/)
+- [Mustache](http://mustache.github.io/)
+
+Last but not least a shout out to the beautiful default theme used to get you started with μProse.
+
+- [Minimal Theme](https://github.com/orderedlist/minimal) by [Steve Smith](https://github.com/orderedlist) 
