@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="uprose">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,18 +13,24 @@
 </html>
 <body>
   <div class="wrapper">
-    <header>
-      <h1 id="upr-headline"></h1>
-      <p id="upr-tagline"></p>
-      <p id="upr-social" class="view"></p>
+    <header ng-controller="ConfListCtrl">
+      <div ng-repeat="x in uprose">
+        <h1>{{x.headline}}</h1>
+        <p ng-bind-html-unsafe="x.tagline"></p>
+        <p ng-bind-html-unsafe="x.social"></p>
+      </div>
     </header>
-    <section id="uprose">
-      <h3 id="upr-intro"></h3>
-      <p id="upr-bio"></p>
-      <hr>
+    <section ng-controller="EntryListCtrl">
+      <article ng-repeat="y in entries">
+        <h3>{{y.entry.title}}</h3>
+        <div ng-bind-html-unsafe="y.entry.body"></div><small><br>posted by {{y.meta.author.firstName}} on {{y.meta.postedOn}}<br>tags: {{y.meta.tags}}</small>
+        <hr>
+      </article>
     </section>
-    <footer>
-      <p id="upr-copyright"></p>
+    <footer ng-controller="ConfListCtrl">
+      <div ng-repeat="z in uprose">
+        <p ng-bind-html-unsafe="z.copy"></p>
+      </div>
     </footer>
   </div>
   <script src="js/u.js"></script>

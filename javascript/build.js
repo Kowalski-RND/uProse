@@ -1,1 +1,2 @@
-//@codekit-prepend "jquery-1.10.2.js", "mustache.js", "uprose.js";
+//@codekit-prepend "angular.js", "angular-resource.js", "angular-sanitize.js", "app.js", "controllers.js";
+console.log('powered by μProse.\nhttps://github.com/BrandonKowalski/uProse');

@@ -1,5 +1,5 @@
 !!! 5
-html
+html(ng-app='uprose')
   head
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
@@ -11,14 +11,18 @@ html
     link(rel='stylesheet', href='css/main.css')
 body
   .wrapper
-    header
-      h1#upr-headline
-      p#upr-tagline
-      p#upr-social.view
-    section#uprose
-      h3#upr-intro
-      p#upr-bio
-      hr
-    footer
-      p#upr-copyright
+    header(ng-controller='ConfListCtrl')
+      div(ng-repeat='x in uprose')
+        h1 {{x.headline}}
+        p(ng-bind-html-unsafe="x.tagline")
+        p(ng-bind-html-unsafe="x.social")
+    section(ng-controller='EntryListCtrl')
+      article(ng-repeat='y in entries')
+        h3 {{y.entry.title}}
+        div(ng-bind-html-unsafe="y.entry.body")
+        small <br>posted by {{y.meta.author.firstName}} on {{y.meta.postedOn}}<br>tags: {{y.meta.tags}}
+        hr
+    footer(ng-controller='ConfListCtrl')
+      div(ng-repeat='z in uprose')
+        p(ng-bind-html-unsafe="z.copy")
   script(src='js/u.js')
