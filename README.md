@@ -38,7 +38,7 @@ Once updated, the loader will find the new post and display it on the page.
 μProse is licensed under the MIT license. Go ahead and break / improve it!
 
 ###Shout-outs
-μProse is built on a really awesome library made by very cool people.
+μProse is built on a really awesome framework made by very cool people over at Google.
 
 - [AngularJS](http://angularjs.org/)
 
