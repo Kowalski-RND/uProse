@@ -21,7 +21,7 @@ Here you can specify the basics such as:
 - Tagline
 - Owner
 - Social Media Links
-- Post Categories
+- Post Tags
 
 ###Writing
 μProse comes with an editor which generates posts for you in JSON format. Since no database is <br>
