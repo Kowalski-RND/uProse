@@ -35,7 +35,7 @@ Here you can specify the basics such as:
 ###Writing
 μProse comes with an editor which generates posts for you in JSON format. Since no database is <br>
 used, μProse does not have any authentication. This means that to add new posts you must edit the <br>
-posts.json file.
+entries.json file.
 
 The editor makes this easy. The editor will load your previous posts from the flatfile. When it<br>
 is time to "save", the editor will append the new post into the existing flatfile. From here you<br>
