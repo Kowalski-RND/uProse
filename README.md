@@ -10,8 +10,14 @@ This will provide a very basic blogging platform without any bells or whistles. 
 customization will be a breeze as you only need to have a couple lines of code on your page to use μProse, <br>
 thus allowing you to retrofit an existing page with a blog without any database requirement.
 
-###Why?
-Why another blogging platform? I say why not. It is a nice little experiment and should be fun to code.
+###That is an odd name.
+I thought so too but it actually describes the essence of this project.
+
+The Greek letter μ (Mu) is the International System of Units symbol for micro.<br>μProse is lightweight and small (micro) and lets you write your prose quickly and easily.
+<br><br>μ also looks very similar to the letter U and would make the project's name to be Uprose.<br>Uprose *(v.)* - to come into existence or prominence.<br><br>I think either name fits the bill and don't care which one your take to heart.
+
+###Why another blogging platform? 
+I say why not. It is a nice little experiment and should be fun to code.
 
 In addition since everything in μProse is stored in a flat file there are no passwords to remember.<br>To update the blog you upload an updated file. It is that simple.
 
