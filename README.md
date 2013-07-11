@@ -43,11 +43,6 @@ just have to copy/paste into or overwrite the existing posts.json file.
 
 Once updated, the loader will find the new post and display it on the page.
 
-###Extensions
-μProse can easily be configured with [Firebase](https://www.firebase.com/) to provide a realtime backend with near-zero configuration on your part.
-
-This feature is not ready for primetime just yet.
-
 ###License
 μProse is licensed under the MIT license. Go ahead and break / improve it!
 
