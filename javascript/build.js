@@ -1,1 +1,1 @@
-//@codekit-prepend "angular.js", "angular-resource.js", "angular-sanitize.js";
+//@codekit-prepend "jquery-1.10.2.js", "jquery-ui.js", "rangy-core.js", "angular.js", "angular-resource.js", "angular-sanitize.js", "hallo.js";
