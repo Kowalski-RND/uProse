@@ -1,1 +1,1 @@
-//@codekit-prepend "angular.js", "angular-resource.js", "angular-sanitize.js";
+//@codekit-prepend "angular.js", "angular-resource.js", "angular-sanitize.js", "Markdown.Converter.js", "jszip.js";

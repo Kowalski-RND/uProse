@@ -13,23 +13,23 @@
 </html>
 <body>
   <div class="wrapper"><a href="https://github.com/BrandonKowalski/uProse"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
-    <header ng-controller="ConfListCtrl">
+    <header ng-controller="ConfCtrl">
       <div ng-repeat="x in uprose">
         <h1>{{x.headline}}</h1>
         <p ng-bind-html-unsafe="x.tagline"></p>
         <p ng-bind-html-unsafe="x.social"></p>
       </div>
     </header>
-    <section ng-controller="EntryListCtrl">
+    <section ng-controller="EntryCtrl">
       <article ng-repeat="y in entries">
         <h3>{{y.entry.title}}</h3>
-        <div ng-bind-html-unsafe="y.entry.body"></div><br>
+        <markdown>{{y}}</markdown><br>
         <div class="meta"> <small>posted by {{y.meta.author.firstName}} on {{y.meta.postedOn}}</small></div>
         <div class="tags"> <small>tags: {{y.meta.tags}}</small></div>
         <hr>
       </article>
     </section>
-    <footer ng-controller="ConfListCtrl">
+    <footer ng-controller="ConfCtrl">
       <div ng-repeat="z in uprose">
         <p ng-bind-html-unsafe="z.copy"></p>
       </div>
