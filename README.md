@@ -28,8 +28,6 @@ Here you can specify the basics such as:
 - Blog Title
 - Tagline
 - Owner
-- Post Categories
-- Post Tags
 - Footer (copyright etc)
 
 μProse has an online editor that generates this configuration file for you. Just fill out the fields.
@@ -52,7 +50,7 @@ if you left off tags.
 μProse is licensed under the **MIT license**. Go ahead and break / improve it!
 
 ###Shout-outs
-μProse is built on a really awesome framework maintained by very cool people over at Google.
+μProse is built on a really awesome frameworks maintained by very cool people.
 
 - [AngularJS](http://angularjs.org/)
 
