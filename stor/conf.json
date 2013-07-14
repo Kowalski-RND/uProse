@@ -1,8 +1,1 @@
-[
-    {
-        "headline": "μProse",
-        "tagline": "a lightweight blogging platform.<br><br>I was created by <a href=\"http://github.com/BrandonKowalski\">Brandon Kowalski</a>.<br>He is pretty swell!",
-        "social": "<a href=\"https://github.com/BrandonKowalski/uProse\">View Project on Github</a>",
-        "copy": "<small>μProse is licensed under the MIT license.</small>"
-    }
-]
+[{"title":"μProse","tagline":"a lightweight blogging platform.<br><br>I was created by <a href=\"http://github.com/BrandonKowalski\">Brandon Kowalski</a>.<br>He is pretty swell!<br><br><a href=\"https://github.com/BrandonKowalski/uProse\">View Project on Github</a>","copy":"μProse is licensed under the MIT license."}]
