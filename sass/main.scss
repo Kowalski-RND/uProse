@@ -45,6 +45,22 @@ a small {
   display:block;
 }
 
+#startScreen {
+    text-align: center;
+}
+
+#builder{
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
+
+#editPane {
+    display: none;
+}
+
 .meta {
   display: inline-block;
 }
@@ -63,20 +79,21 @@ a small {
     position: relative !important;
     border: 1px solid lightgray;
     margin: auto;
-    height: 400px;
+    height: 500px;
     width: 100%;
 }
 
 input, #title {
-  width: 300px;
+  width: 200px;
 }
 
 #buildHeader {
   margin-bottom: 0px;
 }
 
-#buildBtn {
-  text-align: center;
+#entries {
+    height: 55%;
+    overflow: scroll;
 }
 
 .ace_editor.fullScreen {
@@ -146,6 +163,7 @@ header {
   width:270px;
   float:left;
   position:fixed;
+  height: 60%;
 }
 
 header ul {
@@ -207,7 +225,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:575px;
   float:right;
   padding-bottom:50px;
 }
