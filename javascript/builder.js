@@ -19,7 +19,7 @@ var genHTML = function() {
     //and the page isn't that complicated.
     var converter = new Markdown.Converter();
     var buf = '<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><!--if lt IE 9--><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--><link rel="stylesheet" href="css/main.css"><title>' + conf[0].title + '</title></head><body><div class="wrapper"><header><h1>' + conf[0].title + '</h1><p>' + conf[0].tagline + '</p></header><section>';
-    for (var i = 0; i < entries.length; i++) {
+    for (var i = entries.length - 1; i >= 0; i--) {
         var entry = entries[i].entry,
             meta  = entries[i].meta;
         buf = buf + '<article><h3>' + entry.title + '</h3>' + converter.makeHtml(entry.body) + '<small>posted on ' + meta.postedOn + '.</small></article><hr>';

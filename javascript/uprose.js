@@ -17,6 +17,9 @@ function confLoad(result) {
      $.getJSON('../stor/conf.json', function(result) {
         conf = result;
         nlpid = conf[0].lpid;
+        if (nlpid === null || nlpid === undefined) {
+            nlpid = 0;
+        }
         printConf(result[0]);
     });
 }
@@ -61,11 +64,11 @@ function newPost() {
 function savePost() {
     if (newPostFlag) {
         var d = new Date();
-        var date = d.getMonth() + '/' + d.getDate() + '/' + d.getFullYear();
+        var date = d.getMonth() + 1 + '/' + d.getDate() + '/' + d.getFullYear();
         var build = {
                 "meta": {
                     "postedOn": date,
-                    "id": nlpid++
+                    "id": ++nlpid
                 },
                 "entry": {
                     "title": $('#postTitle').val(),
