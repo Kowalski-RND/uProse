@@ -14,7 +14,7 @@ function loadProse() {
 }
 
 function confLoad(result) {
-     $.getJSON('/stor/conf.json', function(result) {
+     $.getJSON('../stor/conf.json', function(result) {
         conf = result;
         nlpid = conf[0].lpid;
         printConf(result[0]);
@@ -22,7 +22,7 @@ function confLoad(result) {
 }
 
 function entriesLoad(result) {
-    $.getJSON('/stor/entries.json', function(result) {
+    $.getJSON('../stor/entries.json', function(result) {
         entries = result;
         printEntries(result);
     });
