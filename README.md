@@ -50,10 +50,8 @@ if you left off tags.
 μProse is licensed under the **MIT license**. Go ahead and break / improve it!
 
 ###Shout-outs
-μProse is built on a really awesome frameworks maintained by very cool people.
+μProse is built on a really awesome projects made by cool people.
 
-- [AngularJS](http://angularjs.org/)
-
-Last but not least a shout out to the beautiful default theme used to get you started with μProse.
+Shout out to the beautiful default theme used to get you started with μProse.
 
 - [Minimal Theme](https://github.com/orderedlist/minimal) by [Steve Smith](https://github.com/orderedlist) 
