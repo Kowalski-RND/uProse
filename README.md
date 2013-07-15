@@ -19,7 +19,7 @@ The Greek letter μ (Mu) is the International System of Units symbol for micro.<
 ###Why another blogging platform? 
 I say why not. It is a nice little experiment and should be fun to code.
 
-In addition since everything in μProse is stored in a flat file there are no passwords to remember.<br>To update the blog you upload an updated file. It is that simple.
+In addition since everything in μProse is stored in a flat-file there are no passwords to remember.<br>To update the blog you upload an updated file. It is that simple.
 
 ###Configuration
 The blog configuration is all contained in JSON format within the conf.json file.
@@ -28,34 +28,30 @@ Here you can specify the basics such as:
 - Blog Title
 - Tagline
 - Owner
-- Post Categories
-- Post Tags
 - Footer (copyright etc)
 
+μProse has an online editor that generates this configuration file for you. Just fill out the fields.
+
 ###Writing
-μProse comes with an editor which generates posts for you in JSON format. Since no database is <br>
-used, μProse does not have any authentication. This means that to add new posts you must edit the <br>
-posts.json file.
+μProse has an online editor which generates posts for you in JSON format. Since no database is <br>
+used, μProse **does not** have any authentication. This means that to add new posts you re-upload<br>the flat-files 
+with the changes.
 
-The editor makes this easy. The editor will load your previous posts from the flatfile. When it<br>
-is time to "save", the editor will append the new post into the existing flatfile. From here you<br>
-just have to copy/paste into or overwrite the existing posts.json file.
+The editor makes this easy. The editor will load your previous posts from the existing flat-file. When it<br>
+is time to "save", the editor will append the new post(s) into the existing flat-file. From here you<br>
+a zip file is generated. Just download, unzip, and overwrite the existing directory on your host.
 
-Once updated, the loader will find the new post and display it on the page.
+That's it. All the work is handled for you. Except for the writing that is.
 
-###Extensions
-μProse can easily be configured with [Firebase](https://www.firebase.com/) to provide a realtime backend with near-zero configuration on your part.
-
-This feature is not ready for primetime just yet.
+Did we mention the editor uses **Markdown**? Yup it's included. No more messing around with HTML and<br>worrying 
+if you left off tags.
 
 ###License
-μProse is licensed under the MIT license. Go ahead and break / improve it!
+μProse is licensed under the **MIT license**. Go ahead and break / improve it!
 
 ###Shout-outs
-μProse is built on a really awesome framework maintained by very cool people over at Google.
+μProse is built on a really awesome projects made by cool people.
 
-- [AngularJS](http://angularjs.org/)
-
-Last but not least a shout out to the beautiful default theme used to get you started with μProse.
+Shout out to the beautiful default theme used to get you started with μProse.
 
 - [Minimal Theme](https://github.com/orderedlist/minimal) by [Steve Smith](https://github.com/orderedlist) 
