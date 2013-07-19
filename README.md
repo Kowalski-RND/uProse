@@ -19,7 +19,9 @@ The Greek letter μ (Mu) is the International System of Units symbol for micro.<
 ###Why another blogging platform? 
 I say why not. It is a nice little experiment and should be fun to code.
 
-In addition since everything in μProse is stored in a flat-file there are no passwords to remember.<br>To update the blog you upload an updated file. It is that simple.
+In addition since everything in μProse is stored in a flat-file there are no passwords to remember.<br>To update the blog you upload the updated files. It is that simple.
+
+There is no security concern what-so-ever as your blog is static.
 
 ###Why this over Jekyll?
 
@@ -51,6 +53,10 @@ That's it. All the work is handled for you. Except for the writing that is.
 
 Did we mention the editor uses **Markdown**? Yup it's included. No more messing around with HTML and<br>worrying 
 if you left off tags.
+
+#Downfalls
+
+μProse is super basic and under-developed and relies on the user to do a little work. This means not all features<br>you'd find in a full fledged CMS are present. That was not the goal however, being crossplatform, self contained,<br>static and lightweight were. I think it meets all of those points.
 
 ###License
 μProse is licensed under the **MIT license**. Go ahead and break / improve it!
