@@ -21,6 +21,12 @@ I say why not. It is a nice little experiment and should be fun to code.
 
 In addition since everything in μProse is stored in a flat-file there are no passwords to remember.<br>To update the blog you upload an updated file. It is that simple.
 
+###Why this over Jekyll?
+
+Jekyll is freaking awesome. That being said it requires Ruby on your system to generate the files.
+
+μProse is 100% Javascript, no dependencies. Open a web browser and edit your content.
+
 ###Configuration
 The blog configuration is all contained in JSON format within the conf.json file.
 
