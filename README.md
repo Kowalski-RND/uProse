@@ -56,7 +56,7 @@ if you left off tags.
 
 #Downfalls
 
-μProse is super basic and under-developed and relies on the user to do a little work. This means not all features<br>you'd find in a full fledged CMS are present. That was not the goal however, being crossplatform, self contained,<br>static and lightweight were. I think it meets all of those points.
+μProse is super basic and under-developed and relies on the user to do a little work. This means not all features you'd find in a full fledged CMS are present. That was not the goal however, being crossplatform, self contained,<br>static and lightweight were. I think it meets all of those points.
 
 ###License
 μProse is licensed under the **MIT license**. Go ahead and break / improve it!
